@@ -1,0 +1,53 @@
+ 
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+  
+  <body style =" background: content-box radial-gradient(green, skyblue, yellow ,violet,white,black,blue,red,orange,navy,goldenrod,gold,silver,maroon)">
+  <div class="container" >
+    <center>
+      <h1>Image recognition</h1>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <div id = "1" style = background-color:white><h2>Mom</h2></div><br><br>
+      <div id = "2" style = background-color:white><h2>Son</h2></div><br><br>
+      <div id = "3" style = background-color:white><h2>Dad</h2></div><br><br>
+     
+    </div>
+    <center>
+      <h1>Webcam View - </h1>
+<div id = "camera" style = background-color:white></div>
+<br><br>
+
+<div id = "captured_img" style = background-color:white></div>
+
+      <br><br>
+<button id = "capture" onclick="capture_img()"><h3>CAPTURE IMAGE</h3></button>
+      <br><br>
+      <button id = "identify" onclick="identify_img()"><h3>IDENTIFY IMAGE</h3></button>
+      <br><br>
+      <p style="font-size: 22px;"><h2>Object :  </h2></p>
+      <p style="font-size: 22px;"><h2>Accuracy :  </h2></p>
+
+    </center>
+    </center>
+  
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
